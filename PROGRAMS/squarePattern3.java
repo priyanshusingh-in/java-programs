@@ -13,6 +13,7 @@ Sample output:
 
 */
 
+import java.util.Scanner;
 class squarePattern3
 {
 	public static void main (String[] args) throws java.lang.Exception
