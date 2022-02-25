@@ -22,10 +22,10 @@ class squarePattern4
 		int n = sc.nextInt();
 		int i = 1;
 		while(i<=n){
-		    int j = n;
-		    while(j>=1){
+		    int j = 1;
+		    while(j<=n){
 		        System.out.print(j);
-		        j--;
+		        j++;
 		    }
 		    System.out.println();
 		    i++;
