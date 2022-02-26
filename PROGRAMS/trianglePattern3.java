@@ -19,9 +19,9 @@ class trianglePattern3
 	{
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int p = 1;
 		int i = 1;
 		while(i<=n){
+		    int p = i;
 		    int j = 1;
 		    while(j<=i){
 		        System.out.print(p);
@@ -30,7 +30,6 @@ class trianglePattern3
 		    }
 		    System.out.println();
 		    i++;
-		    p = i;
 		}
 	}
 }
