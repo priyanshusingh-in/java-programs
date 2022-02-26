@@ -13,7 +13,7 @@ Sample output:
 
 import java.util.Scanner;
 
-class triangelPattern1
+class trianglePattern1
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
