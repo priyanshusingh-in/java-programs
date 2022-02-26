@@ -11,7 +11,7 @@ Sample output:
 
 */
 
-import java.util.*;
+import java.util.Scanner;
 
 class trianglePattern2
 {
