@@ -1,5 +1,10 @@
 /*
 
+Video explanation of the core concept:
+https://www.youtube.com/watch?v=PQig5KVzxJQ
+
+-------------------------------------------------
+
 Sample input:
 4
 
