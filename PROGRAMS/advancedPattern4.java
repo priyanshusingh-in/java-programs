@@ -1,7 +1,13 @@
 /*
 
 Sample input:
+4
 
+Sample output:
+4555
+3455
+2345
+1234
 
 */
 
