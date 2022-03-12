@@ -18,17 +18,17 @@ Constraints :
 Sample Input 1:
 5
 Sample Output 1:
-           1
-         232
-       34543
-     4567654
+       1
+      232
+     34543
+    4567654
    567898765
 Sample Input 2:
 4
 Sample Output 2:
-           1
-         232
-       34543
+        1
+       232
+      34543
      4567654
 
 */
