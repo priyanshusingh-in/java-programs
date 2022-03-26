@@ -29,7 +29,7 @@ So the “6th” element is “8” hence we get the output.
 */
 
 import java.util.Scanner;
-public class Solution {
+public class NthFibonacciNumber {
 
 
 	public static void main(String[] args) {
