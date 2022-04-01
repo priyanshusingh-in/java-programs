@@ -13,6 +13,8 @@ Sample output:
 
 /* package codechef; // don't place package name! */
 
+//METHOD 1
+
 import java.util.*;
 class calculateNcR
 {
@@ -37,6 +39,32 @@ class calculateNcR
 		{
 		 factNR*=i;
 		}
+		int result=factN/(factR*factNR);
+		System.out.println(result);
+	}
+}
+
+//METHOD 2
+
+import java.util.*;
+class calculateNcR
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int r=sc.nextInt();
+		
+		int factN=1, factR=1, factNR=1;
+		for(int i=2;i<=n;i++)
+		{
+		 factN*=i;
+			if(i<=r)
+				factR*=i;
+			if(i<=n-r)
+				factNR*=i;
+		}
+		
 		int result=factN/(factR*factNR);
 		System.out.println(result);
 	}
